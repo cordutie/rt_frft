@@ -38,29 +38,29 @@ demonstrate the influence of hop size on artifact control. Further examples empl
 half of the spectrum, as shown in Figure 8.
 </p>
 
+Sinusoidal Input:
+
 <div style="margin-top: 20px; display: flex; justify-content: center;">
-  <div style="position: relative; width: 66%; padding-top: 37.5%;">
-    <iframe src="https://www.youtube.com/embed/Q5bxa2bTDeE"
-      title="Vanilla Alpha Synthesis"
-      frameborder="0" allowfullscreen
-      style="position:absolute; top:0; left:0; width:100%; height:100%;">
-    </iframe>
+  <div style="position: relative; width: 66%;">
+    <video controls style="width: 100%; height: auto;">
+      <source src="assets/videos/6.1.1 Vanilla Synthesis examples - Sine Input.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
-<!-- 6.1.2 -->
-<h3>6.1.2. Synthesis + Parameter Manipulation</h3>
-<p>
-This example features dynamic modulation of the order of the FRFT with fixed
-overlap-and-add parameters. The modulation is performed in real time using LFOs,
-allowing control over the perceived slope and spectral evolution of the generated chirps.
-</p>
+Square Input:
 
-<p>
-The results reveal a wide range of non-trivial synthesis behaviors, producing rich sound
-textures even when driven by simple waveforms.
-</p>
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%;">
+    <video controls style="width: 100%; height: auto;">
+      <source src="assets/videos/6.1.1 Vanilla Synthesis examples - Square Input.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
 
+Previous Paper:
 <div style="margin-top: 20px; display: flex; justify-content: center;">
   <div style="position: relative; width: 66%; padding-top: 37.5%;">
     <iframe src="https://www.youtube.com/embed/B0pOn1DQwiY"
@@ -71,6 +71,29 @@ textures even when driven by simple waveforms.
   </div>
 </div>
 
+
+<!-- 6.1.2 -->
+<h3>6.1.1. Synthesis + Parameter manipulation example</h3>
+<p>
+This example features dynamic modulation of the order of the FRFT with fixed overlap-and-add parameters. 
+The dynamic modulation is performed in real time, where control over the spectral evolution and the perceived 
+slope of the generated chirps is achieved using different LFOs. The results reveal a large number of non-trivial 
+ways of exerting control in the synthesis process, which in turn generate a wide variety of sound textures, 
+even when the synthesis is driven by simple waveforms.
+</p>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/bGcGklXBB9Y?si=Y29V4mLBUvlzm6Ja"
+      title="Alpha Synthesis with Parameter Modulation"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+
+
 <!-- 6.1.3 -->
 <h3>6.1.3. Minimal Processing Examples</h3>
 <p>
@@ -79,6 +102,9 @@ and electronic keyboards processed with conservative and static α values. These
 examples highlight subtle frequency-modulated complexes of tones caused by the
 double-rotation property.
 </p>
+
+
+
 
 <p>
 A second set uses spectrally complex material and less conservative α values,
@@ -95,6 +121,28 @@ or render percussive sounds noisier while preserving amplitude envelopes.
     </iframe>
   </div>
 </div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/eE98i4gutgQ?si=xYyIErbqNeGwwYDL"
+      title="Minimal Alpha Processing"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%;">
+    <video controls style="width: 100%; height: auto;">
+      <source src="assets/videos/6.1.3 Minimal processing examples - untitled02.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+
+
 
 <!-- 6.1.4 -->
 <h3>6.1.4. Processing + Parameter Manipulation</h3>
@@ -120,6 +168,17 @@ resulting in metallic, time-varying timbres.
 </div>
 
 </details>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/QJM4CAQ_jWw?si=YZGKGstFsPxyTSoB"
+      title="Alpha Processing with Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
 
 <!-- ======================= 6.2 ======================= -->
 <div style="margin-top: 20px;"></div>
@@ -158,20 +217,151 @@ decompose across different α–domains.
   </div>
 </div>
 
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/39ZL2P9e8dE?si=5_HCxzyER7VH0n74"
+      title="Vanilla Alpha Filters 3"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/GsHaqQHi5YI?si=-8tyjDr6UW5EJF-n"
+      title="Vanilla Alpha Filters 2"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+
+
+
+
 <h3>6.2.2. Filters + Parameter Manipulation</h3>
 <p>
 TO DO
 </p>
+
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/qRO3LAE-oWQ?si=RsWiQIoaSxY0VaSR"
+      title="Filters with Parameter Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/YTlvPGFpkXk?si=Xv9Nko6BthjAqawZ"
+      title="Filters with Parameter Modulation 2"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/nbXRuLykpE8?si=MIiAL_hHAtKa2WF_"
+      title="Filters with Parameter Modulation 3"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/FnxI465W378?si=L31LxMsTgPUqsCPB"
+      title="Filters with Parameter Modulation 4"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+
 
 <h3>6.2.3. Vanilla Convolutions</h3>
 <p>
 TO DO
 </p>
 
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/Tlfh544izOs?si=ldVDGAY3OZG_u3bC"
+      title="Vanilla Alpha convolutions 3"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/vBwMrA1nbMc?si=z2wGv0NmxdAUlVyZ"
+      title="Vanilla Alpha convolutions 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/-nStXowsfT8?si=Ax6Joj68dhie61VN"
+      title="Vanilla Alpha convolutions 2"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+
+
 <h3>6.2.4. Convolution + Parameter Manipulation</h3>
 <p>
 TO DO
 </p>
+
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/kGieKa5G9xs?si=O0EQL2KFPbTACICQ"
+      title="Convolutions with Parameter Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/hAefS-V7fjk?si=DtV6UEis-h3g4LJ3"
+      title="Convolutions with Parameter Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/YTKGFlbmir4?si=dqsOpuPL9DK3IN0Z"
+      title="Convolutions with Parameter Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
 
 </details>
 
@@ -207,6 +397,27 @@ yielding a characteristic four-component chirp structure.
   </div>
 </div>
 
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/SUdOmrFiFps?si=JAzN01Y21OEAtMCw"
+      title="Alpha Ring Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/1QliTatOTAw?si=VwcrEkavl1u5-0fw"
+      title="Alpha Ring Modulation 2"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+
 <h3>6.3.2. Ring Modulation + Parameter Manipulation</h3>
 <p>
 More complex interactions are achieved by modulating the α parameter of both carrier
@@ -218,6 +429,30 @@ Note: Using sinusoids with opposite angles results in a cancellation of the rota
 </p>
 
 </details>
+
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/jRxrkIlauac?si=ciIKpusa_0a3cDmx"
+      title="Alpha Ring Modulation with Parameter Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/c2ZWm98VLiU?si=bquHC3JB5_nfcSRF"
+      title="Alpha Ring Modulation with Parameter Modulation 1"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+
+
 
 <!-- ======================= 6.4 ======================= -->
 <div style="margin-top: 20px;"></div>
@@ -235,6 +470,45 @@ Note: Using sinusoids with opposite angles results in a cancellation of the rota
 Different signals are used within feedback structures that route the output of
 α–processing back into its own input, producing chaotic systems.
 </p>
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/R5FmsEVHGGM?si=Ll8jQASiTCJxKR0R"
+      title="Feedback"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+<h3>6.4.1. Rhythmic Patterns </h3>
+
+Rhythmic Patterns at alpha near 1 (RFRFT close to FT):
+
+Via Synthesis:
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/H7xIomGsXwY?si=D0fQz55JRJ-aWxNt"
+      title="rhythmic"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
+Via filter manipulation (voice input - most prominent around 1.30):
+
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+  <div style="position: relative; width: 66%; padding-top: 37.5%;">
+    <iframe src="https://www.youtube.com/embed/sXDVyswQuEc?si=_UGaTdGzWtMvd3Nm"
+      title="rhythmic2"
+      frameborder="0" allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+</div>
+
 
 <h3>6.4.2. Soundscape Generation using Giant RFRFT</h3>
 <p>
