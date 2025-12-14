@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fractional Fourier Sound Synthesis
+title: Real-Time Fractional Fourier Sound Synthesis and Processing
 ---
 
 <div style="position: relative; width: 100%; height: 60px; margin-bottom: 20px;">
@@ -11,13 +11,14 @@ title: Fractional Fourier Sound Synthesis
 </div>
 
 <div style="text-align: center">
-<h1>Fractional Fourier Sound Synthesis</h1>
+<h1>Real-Time Fractional Fourier Sound Synthesis and Processing</h1>
 <p>
-  <a href="https://cordutie.github.io/"><strong>Esteban Gutiérrez</strong></a><sup>1</sup>, 
-  <a href="https://rodrigocadiz.com/"><strong>Rodrigo Cádiz</strong></a><sup>2,3</sup>, 
+  <a href="https://cordutie.github.io/"><strong>Esteban Gutiérrez</strong></a><sup>1</sup>,
+  <a href="https://behzadhaki.com/"><strong>Behzad Haki</strong></a><sup>1</sup>,  
   <a href="https://www.ing.uc.cl/academicos-e-investigadores/carlos-alberto-sing-long-collao/"><strong>Carlos Sing Long</strong></a><sup>4</sup>, 
-  <a href="https://ffont.github.io/"><strong>Frederic Font</strong></a><sup>1</sup>, and
-  <a href="https://www.upf.edu/web/xavier-serra"><strong>Xavier Serra</strong></a><sup>1</sup>
+  <a href="https://ffont.github.io/"><strong>Frederic Font</strong></a><sup>1</sup>,
+  <a href="https://www.upf.edu/web/xavier-serra"><strong>Xavier Serra</strong></a><sup>1</sup>, and
+  <a href="https://rodrigocadiz.com/"><strong>Rodrigo Cádiz</strong></a><sup>2,3</sup>, 
 </p>
 
 <p>
@@ -27,7 +28,7 @@ title: Fractional Fourier Sound Synthesis
   <sup>4</sup> <em>Instituto de Ingeniería Matemática y Computacional, Pontificia Universidad Católica de Chile</em>
 </p>
 </div>
-
+<!-- 
 <div style="text-align: center; margin-top: 1em; margin-bottom: -0.3em;">
   <a href="https://www.arxiv.org/abs/2506.09189" 
     style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
@@ -41,11 +42,11 @@ title: Fractional Fourier Sound Synthesis
     style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
     📚 Bibtex
   </a>
-</div>
+</div> -->
 
 <div style="margin-top: 20px;"></div>
 <p>
-This webpage provides supplementary materials for our paper <em>"Fractional Fourier Sound Synthesis"</em>, to be presented at the International Computer Music Conference (ICMC) 2025 in Boston, USA.
+This webpage provides supplementary materials for our paper <em>"Real-Time Fractional Fourier Sound Synthesis and Processing"</em>, submitted to the Journal of the Audio Engineering Society (JAES).
 </p>
 
 <div style="margin-top: 20px;"></div>
@@ -54,11 +55,16 @@ This webpage provides supplementary materials for our paper <em>"Fractional Four
 
 <div style="margin-top: 40px;"></div>
 <h2><strong>2. Methods</strong></h2>
-{% include_relative 2_methods.md %}
+{% include_relative 2_methods.md %} --> -->
+
 
 <div style="margin-top: 40px;"></div>
-<h2><strong>3. Experiments</strong></h2>
-{% include_relative 3_experiments.md %}
+<h2><strong>3. Max Implementation</strong></h2>
+{% include_relative 3_MAX.md %}
+
+<div style="margin-top: 40px;"></div>
+<h2><strong>4. Sound Examples</strong></h2>
+{% include_relative 4_sound_examples.md %}
 
 <div style="margin-top: 40px;"></div>
 <div style="display: flex; justify-content: center;">
