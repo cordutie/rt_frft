@@ -28,45 +28,23 @@ title: Real-Time Fractional Fourier Sound Synthesis and Processing
   <sup>4</sup> <em>Instituto de Ingeniería Matemática y Computacional, Pontificia Universidad Católica de Chile</em>
 </p>
 </div>
-<!-- 
-<div style="text-align: center; margin-top: 1em; margin-bottom: -0.3em;">
-  <a href="https://www.arxiv.org/abs/2506.09189" 
-    style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
-    📄 Paper
-  </a>
-  <a href="https://github.com/cordutie/frft_sound_synthesis" 
-    style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
-    <img src="/assets/img/gh_logo.png" alt="GitHub" width="15" style="filter: invert(1); vertical-align: -0.2em;" /> Experiments repository
-  </a>
-  <a href="#" onclick="event.preventDefault(); navigator.clipboard.writeText('@inproceedings{gutierrez2025frft,\n title     = {Fractional Fourier Sound Synthesis},\n author    = {Esteban Gutiérrez and Rodrigo Cádiz and Carlos Sing Long and Frederic Font and Xavier Serra},\n booktitle = {Proceedings of the 50th International Computer Music Conference (ICMC) 2025},\n year      = {2025},\n address   = {Boston, USA},\n month     = {June},\n note      = {8--14 September 2025}\n}'); alert('Copied to clipboard!');"
-    style="display: inline-block; background: #3498db; color: white; padding: 0.6em 1em; border-radius: 5px; text-decoration: none; margin: 0.3em 0em;">
-    📚 Bibtex
-  </a>
-</div> -->
 
 <div style="margin-top: 20px;"></div>
 <p>
 This webpage provides supplementary materials for our paper <em>"Real-Time Fractional Fourier Sound Synthesis and Processing"</em>, submitted to the Journal of the Audio Engineering Society (JAES).
 </p>
 
-<div style="margin-top: 20px;"></div>
-<h2><strong>1. Introduction</strong></h2>
-{% include_relative 1_introduction.md %}
-
 <div style="margin-top: 40px;"></div>
-<h2><strong>2. Methods</strong></h2>
-{% include_relative 2_methods.md %} --> -->
+<div style="display: flex; justify-content: center;">
+  <div style="border-left: 4px solid rgb(200, 200, 200); background:rgb(230, 230, 230); padding: 1em 1.2em; margin: 1.5em 0; border-radius: 8px; max-width: 300px; width: 100%;">
+    🚧 <strong>Disclaimer:</strong>  Upon acceptance, this webpage will be expanded with additional information related to other parts of the paper. For now, it provides an archive of the video and sound examples, which are hosted as unlisted YouTube videos and will be made public upon publication.
+  </div>
+</div>
 
-
-<div style="margin-top: 40px;"></div>
-<h2><strong>3. Max Implementation</strong></h2>
-{% include_relative 3_MAX.md %}
-
-<div style="margin-top: 40px;"></div>
-<h2><strong>4. Sound Examples</strong></h2>
+<h2><strong>6. Sound Examples</strong></h2>
 {% include_relative 4_sound_examples.md %}
 
-<div style="margin-top: 40px;"></div>
+<!-- <div style="margin-top: 40px;"></div>
 <div style="display: flex; justify-content: center;">
   <div style="border-left: 4px solid rgb(200, 200, 200); background:rgb(230, 230, 230); padding: 1em 1.2em; margin: 1.5em 0; border-radius: 8px; max-width: 300px; width: 100%;">
     <strong>Legend:</strong>
@@ -77,7 +55,7 @@ This webpage provides supplementary materials for our paper <em>"Real-Time Fract
       <li>🚧 Still under construction</li>
     </ul>
   </div>
-</div>
+</div> -->
 
 <div style="margin-top: 40px;"></div>
 <h2><strong>Acknowledgements</strong></h2>
